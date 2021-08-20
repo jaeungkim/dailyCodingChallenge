@@ -8,7 +8,7 @@ public class jaeSolution {
         for (int i : nums) { //for int i in nums array
           if (!list.contains(i)) { //if there's no int i in list   
             list.add(i); // add i to list ex) [4,1,2,1,2] -> <4,1,2> 
-          } else { // elses
+          } else { // else
             list.remove(new Integer(i)); //if it contains it remove it <4,1,2> -> <4>
           }
         }
